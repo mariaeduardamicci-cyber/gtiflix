@@ -19,6 +19,10 @@ class AtorSeeder extends Seeder
         ['nome' => "Megan Fox",
         'descricao'=> "Muito lembrada por atuar em Transformers",
         'nacionalidade_id' => 2],
+        
+        ['nome' => "Tom Holland",
+        'descricao'=> "Muito lembrado por atuar em Homem-Aranha",
+        'nacionalidade_id' => 3],
     );
 }
 }
