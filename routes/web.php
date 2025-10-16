@@ -48,3 +48,9 @@ Route::get ('/filmes', function () {
     $camundongo6 = Filme::all();
     dd($camundongo6);
 });
+
+Route::get('/lista-filmes', function () {
+    $filmes = Filme::all();
+    return view('lista-filmes',
+      compact('filmes'));
+});

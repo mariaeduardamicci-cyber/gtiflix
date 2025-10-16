@@ -11,6 +11,7 @@ class FilmeSeeder extends Seeder
     {
         Filme::create([
             'titulo' => 'Inception',
+            'descricao'=> "filme de Ficção",
             'ano' => 2010,
             'diretor_id' => 1,
             'produtora_id' => 1
@@ -18,6 +19,7 @@ class FilmeSeeder extends Seeder
 
         Filme::create([
             'titulo' => 'Pulp Fiction',
+            'descricao'=> "filme de Ação",
             'ano' => 1994,
             'diretor_id' => 2,
             'produtora_id' => 2
@@ -25,6 +27,7 @@ class FilmeSeeder extends Seeder
 
         Filme::create([
             'titulo' => 'Cidade de Deus',
+            'descricao'=> "filme de Ficção",
             'ano' => 2002,
             'diretor_id' => 3,
             'produtora_id' => 3
